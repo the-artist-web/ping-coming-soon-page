@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- logo website frontend mentor -->
+    <link rel="icon" href="./assets/images/favicon-32x32.png">
+    <!-- meta tags -->
+    <meta name="title" content="Ping coming soon page">
+    <meta name="description" content="this is Ping coming soon page">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- custom link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer"/>
+    <!-- custom css link -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Ping coming soon page</title>
+  </head>
+
+  <body>
+    <!-- #HERO -->
+    <main class="hero section">
+      <div class="container">
+        <div class="hero-top">
+          <figure>
+            <img src="./assets/images/logo.svg" loading="lazy" alt="logo" class="logo">
+          </figure>
+
+          <div class="hero-top-content">
+            <h1 class="title">We are launching <span>soon!</span></h1>
+            <p class="pragrah">Subscribe and get notified.</p>
+          </div>
+
+          <div class="form">
+            <div class="input-box">
+              <input onkeyup="searchEmamil(this.value.toLowerCase())" class="item" type="text" placeholder="Your Email Address" data-item>
+              <i class="error" data-error>Please provide a valid email address</i>
+            </div>
+
+            <button class="btn" data-btn>
+              <span>Notify Me</span>
+            </button>
+          </div>
+        </div>
+
+        <figure>
+          <img src="./assets/images/illustration-dashboard.png" loading="lazy" alt="illustration-dashboard" class="img-cover">
+        </figure>
+
+        <div class="hero-bottom">
+          <ul class="icons-list">
+            <li class="icon-item">
+              <a href="#" class="icon-link">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+            </li>
+            
+            <li class="icon-item">
+              <a href="#" class="icon-link">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </li>
+            
+            <li class="icon-item">
+              <a href="#" class="icon-link">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+
+          <div class="footer">
+            <p class="Copyright">
+              &copy; Copyright Ping. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- custom js link -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
